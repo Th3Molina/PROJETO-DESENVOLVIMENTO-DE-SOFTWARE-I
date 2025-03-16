@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas</h1>
+        <input type="text" id="taskInput" placeholder="Nova tarefa">
+        <button onclick="addTask()">+</button>
+        <ul id="taskList"></ul>
+    </div>
+    <template id="taskTemplate">
+        <li>
+            <span class="task-text"></span>
+            <div class="task-action">
+            <button class="edit-btn" onclick="editTask(this)">✏</button>
+            <button class="complete-btn" onclick="completeTask(this)">✔</button>
+            <button class="remove-btn" onclick="removeTask(this)">❌</button>
+        </div>
+        </li>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>

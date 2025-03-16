@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(9bc27292880429.5e569ff84e4d0.gif);
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;      
+}
+
+
+#taskInput::placeholder {
+    color: #aaa;
+}
+
+#taskInput:focus {
+    outline: none;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.task-action {
+    display: flex;
+    gap: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.complete-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+}
