@@ -3,10 +3,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(background.gif);
+    background: url(background.gif) no-repeat center/cover;
     text-align: center;
     font-family: "Russo One", sans-serif;
-    color: white;
+    color: white
 }
 
 .container {
@@ -103,6 +103,12 @@ button {
         width: 100%;
         padding: 10px;
         border-radius: 10px;
+    }
+    body {
+        color: rgb(0, 255, 221);
+        background: url(background\ mobile.gif) no-repeat center/cover ;
+        
+       
     }
     
     li {
