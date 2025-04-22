@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(../img/background-b.gif);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .texto {
+    font-size: 1.2rem;
+    color: #444;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    max-width: 700px;
+    margin: 7px auto;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+  }
+
+  .texto2 {
+    font-size: 1.2rem;
+    color: #000000;
+    padding: 20px 25px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #ff4d4d, #ffaf40, #f9ff4e, #4cff4c, #4cafff, #b84cff);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    max-width: 700px;
+    margin: 7px auto;
+    line-height: 1.6;
+    background-size: 400% 400%;
+    animation: rainbowMove 8s ease infinite;
+
+  }
+  
+  .container {
+    color: white;
+    text-align: center;
+    background: transparent;
+    width: 500px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  button {
+    padding: 15px 40px;
+    color: rgb(37, 35, 35);
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 280px;
+    transition: all 0.3s ease;
+  }
+  
+  button.b1:hover {
+    background-color: rgb(221, 7, 7);
+    color: rgb(244, 245, 244);
+    transform: scale(1.05);
+  }
+
+  button.b2:hover {
+    background-color: rgb(221, 7, 7);
+    color: rgb(253, 253, 253);
+    transform: scale(1.05); 
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 2px solid #333;
+  }
+
+  @keyframes rainbowMove {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  

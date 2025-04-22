@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(img/background.gif) no-repeat center/cover;
+    background: url(../img/background.gif) no-repeat center/cover;
     text-align: center;
     font-family: "Russo One", sans-serif;
     color: white
@@ -21,6 +21,10 @@ body {
 
 #taskInput::placeholder {
     color: #aaa;
+}
+
+#taskInput {
+    font-size: 110%;
 }
 
 #taskInput:focus {
@@ -95,7 +99,7 @@ button {
     }
     body {
         color: rgb(0, 255, 221);
-        background: url(img/background\ mobile.gif) no-repeat center/cover ;
+        background: url(../img/background\ mobile.gif) no-repeat center/cover ;
         
        
     }
@@ -126,7 +130,7 @@ button {
 
     body {
         color: rgb(1, 236, 52);
-        background: url(img/background\ medio.gif) no-repeat center/cover;
+        background: url(../img/background\ medio.gif) no-repeat center/cover;
     }
 
    
