@@ -1,13 +1,15 @@
-Lista de Tarefas Inteligente
+A Lista de Tarefas Inteligente é uma aplicação web desenvolvida com HTML, CSS e JavaScript, projetada para ajudar os usuários a organizarem suas tarefas diárias de forma prática e eficiente. Totalmente responsiva, a interface se adapta a dispositivos móveis, tablets e desktops, garantindo uma ótima experiência em qualquer tela.
 
-Descrição
+Além das funções clássicas de uma To-Do List, esta aplicação também conta com um Timer estilo Pomodoro, ideal para manter o foco e gerenciar o tempo de produtividade.
 
-A Lista de Tarefas Inteligente é uma lista de tarefas (To-Do List) usando HTML, CSS e JS. Uma aplicação projetada para ajudar os usuários a organizar e gerenciar suas tarefas diárias de forma eficiente. E podendo editar a tarefa caso mude de ideia, adaptando a diferentes tamanhos de tela para oferecer uma experiência de usuário otimizada em dispositivos móveis, tablets e desktops.
+⚙️ Funcionalidades
+✅ Adição de Tarefas: Permite ao usuário cadastrar novas tarefas facilmente.
 
+✏️ Edição de Tarefas: Caso o usuário mude de ideia, é possível editar uma tarefa existente.
 
-Funcionalidades
+🗑️ Exclusão de Tarefas: Remove tarefas concluídas ou desnecessárias.
 
-📌 Adicionamento de Tarefas: Permite aos usuários adicionar tarefas.
-✏️ Edição de tarefas: Permite que os usuários faça edições de tarefas ja adicionadas.
-🗑️ Deletar tarefas: Perque que os usuários delete ou conclua as tarefas pendentes.
+✔️ Marcar como Concluída: Facilita o acompanhamento do progresso diário.
+
+⏲️ Timer/Pomodoro: Ajuda o usuário a manter o foco e dividir o trabalho em blocos de tempo produtivos.
 
