@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/timer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Stopwatch</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+          <h1 class="logo">FOCUSFLOW</h1>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="/home.html">Home</a></li>
+              <li><a href="timer.html">Timer</a></li>
+              <li><a href="to-do-list.html">Gerenciador</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <main class="main">
+    <div id="stopwatch">
+
+        <h2 id="timer">00:00:00:00</h2>
+
+        <div id="actions">
+            <button id="reset">
+                <i class="fa-solid fa-redo"></i> 
+            </button>
+            <button id="power" action="start">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <button id="mark">
+                <i class="fa-solid fa-flag"></i>
+            </button>
+        </div>
+
+        <div id="marks-list"></div>
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2025. Todos os direitos reservados.</p>
+      </footer>
+
+    
+    <script src="/js/timer.js"></script>
+    
+</body>
+</html>

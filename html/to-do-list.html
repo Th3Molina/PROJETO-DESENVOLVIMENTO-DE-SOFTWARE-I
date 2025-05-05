@@ -6,13 +6,31 @@
     <title>Gerenciador de Tarefas</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>    
+<body>
+
+
+    <header class="navbar">
+        <div class="navbar-container">
+          <h1 class="logo">FOCUSFLOW</h1>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="/home.html">Home</a></li>
+              <li><a href="timer.html">Timer</a></li>
+              <li><a href="to-do-list.html">Gerenciador</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+    <main class="main">   
+
     <div class="container">
         <h1>Gerenciador de Tarefas</h1>
         <input type="text" id="taskInput" placeholder="Nova tarefa">
         <button onclick="addTask()">+</button>
         <ul id="taskList"></ul>
     </div>
+
     <template id="taskTemplate">
         <li>
             <span class="task-text"></span>
@@ -23,6 +41,12 @@
         </div>
         </li>
     </template>
+    </main> 
+
+    <footer>
+        <p>&copy; 2025. Todos os direitos reservados.</p>
+      </footer>
+
     <script src="../js/script.js"></script>
 </body>
 </html>
